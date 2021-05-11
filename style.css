@@ -6,7 +6,6 @@
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 85%;
-    background: ;
 }
 
 .page-top{
@@ -69,11 +68,21 @@
     font-size: 100%;
 }
 
+.second-list-1{
+    margin-left: -3%;
+}
+
+.second-list ul li{
+    display: inline-block;
+    padding-right: 1.5%;
+}
+
 .second-list a{
     padding: 0.6%;
 }
 
 .mid-ad{
+    background: ;
     width: 1190px;
     margin: auto;
 }
@@ -111,6 +120,7 @@ a{
 }
 
 .bottom-content{
+    background: ;
     width: 1220px;
     margin: auto;
     margin-top: 1%;
@@ -190,7 +200,21 @@ a{
     font-size: 82%;
 }
 
-.content-options{
-
+.content-table-box{
+    background: turquoise;
+    width: 23.2%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    box-shadow: 0px 0px 2px 0px rgb(105, 103, 103);
+    margin-top: 6%;
 }
 
+.content-options{
+    background: rosybrown;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    margin-top: 2%;
+}
