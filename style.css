@@ -38,7 +38,6 @@
     text-align: right;
     width: 400px;
     color: rgb(230, 221, 221);
-    display: inline-block;
     float: right;
     margin-top: 45px;
     padding-top: 3.9px;
@@ -82,7 +81,7 @@
 }
 
 .mid-ad{
-    background: ;
+    background: none;
     width: 1190px;
     margin: auto;
 }
@@ -120,7 +119,7 @@ a{
 }
 
 .bottom-content{
-    background: ;
+    background: none;
     width: 1220px;
     margin: auto;
     margin-top: 1%;
@@ -201,10 +200,8 @@ a{
 }
 
 .content-table-box{
-    background: turquoise;
     width: 23.2%;
     height: 400px;
-    display: inline-block;
     vertical-align: top;
     float: right;
     box-shadow: 0px 0px 2px 0px rgb(105, 103, 103);
@@ -212,9 +209,45 @@ a{
 }
 
 .content-options{
-    background: rosybrown;
     width: 90%;
     height: 10%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 30px;
+}
+
+.content-table{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px 7px;
+    color: white;
+    font-size: 99%;
+
+}
+
+.topic{
+    text-align: left;
+}
+
+th{
+    background: rgb(61, 61, 61);
+}
+
+.green{
+    background: rgb(27, 117, 27);
+}
+
+.red{
+    background: rgb(139, 33, 33);
+}
+
+.blue{
+    background: rgb(88, 172, 201);
 }
